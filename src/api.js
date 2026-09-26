@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://electro-shop-backend-6x1w.onrender.com/";
 
 function authHeaders(token) {
   return token ? { Authorization: `Bearer ${token}` } : {};
